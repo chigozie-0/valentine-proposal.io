@@ -45,6 +45,9 @@ body{
 }
 
 .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     > button{
         padding: 5px 7px;
         border-radius: 5px;
@@ -63,4 +66,9 @@ body{
 
 #no{
     position: absolute;
+    top: 260px
+}
+
+#yes{
+    margin-bottom: 70px;
 }
