@@ -1,0 +1,66 @@
+#please-cat{
+    width: 500px;
+    > img{
+        width: 100%;
+    }
+}
+body{
+    background: #f3b8c3;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(10px, 4vw, 100px);
+    /*background-image: url('hearts.jpeg');*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#trailer {
+    width: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    > img {
+        width: 100%;
+        background: none;
+    }
+}
+
+.question{
+    font-size: 20px;
+    > h1{
+        color: white;
+    }
+}
+
+.buttons{
+    > button{
+        padding: 5px 7px;
+        border-radius: 5px;
+        font-size: 16px;
+        border-style: solid;
+        background-color: #f3d6ad;
+        border-color: burlywood;
+        color: #d37777;
+        opacity: 0.8;
+        &:hover{
+            cursor: pointer;
+            opacity: 1.5;
+        }
+    }
+}
+
+#no{
+    position: absolute;
+}
